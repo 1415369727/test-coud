@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev # 开发环境
   application:
-    name: microservice-product-config # ******服务名*******
+    name: microservice-product-config111 # ******服务名*******
       
 eureka:
   client:
