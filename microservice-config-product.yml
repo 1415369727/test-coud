@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev # 开发环境
   application:
-    name: microservice-product-config111 # ******服务名*******
+    name: microservice-product-config-dev # ******服务名*******
       
 eureka:
   client:
@@ -27,7 +27,7 @@ server:
 spring:
   profiles: prod # 生产环境
   application:
-    name: microservice-product-config222 # ******服务名*******
+    name: microservice-product-config-prod # ******服务名*******
 
 eureka:
   client:
