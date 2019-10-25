@@ -4,7 +4,7 @@ spring:
     active: dev # 激活开发环境配置
 ---
 server:
-  port: 8001
+  port: 8005
 
 spring:
   profiles: dev # 开发环境
@@ -22,7 +22,7 @@ eureka:
     prefer-ip-address: true
 ---
 server:
-  port: 8001
+  port: 8005
 
 spring:
   profiles: prod # 生产环境
